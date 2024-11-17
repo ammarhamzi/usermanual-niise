@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Manual</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 60px;
+        padding: 50px;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #2c3e50;
+      }
+      pre {
+        background: #ececec;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+      }
+      img {
+        display: block;
+        margin: 10px auto;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      ul {
+        list-style: disc;
+        margin-left: 20px;
+      }
+      .code-block {
+        background-color: #e8f1f8;
+        border-left: 5px solid #3498db;
+        padding: 10px;
+        margin: 10px 0;
+        font-family: "Courier New", Courier, monospace;
+      }
+      nav {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+      nav a {
+        color: #fff;
+        margin-right: 10px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>User Manual</h1>
+
+    <h2>Introduction</h2>
+
+    <p>
+      Welcome to the AIDevX AF, AIDevX UI and AIDevX AI User Guide, your
+      essential resource for understanding and utilizing the tools in the AIDevX
+      ecosystem. This guide helps users efficiently manage roles, users, menus,
+      APIs, and user interfaces with AIDevX AF, as well as handle projects,
+      assistants, and workflows using AIDevX AI. Designed for both beginners and
+      experienced administrators, this guide includes clear instructions,
+      practical advice, and visual examples to support your tasks.
+    </p>
+
+    <h2>About AIDevX AF</h2>
+
+    <p>
+      AIDevX AF (Application Framework) is a powerful tool designed for building
+      and customizing the backend of applications. With an intuitive interface,
+      AIDevX AF enables administrators to:
+    </p>
+
+    <ul>
+      <li>Define and assign user roles.</li>
+      <li>Manage user accounts and permissions.</li>
+      <li>Organize menus and navigation structures.</li>
+      <li>Create, edit, and manage APIs.</li>
+      <li>Design user interfaces with pre-built components.</li>
+      <li>Test and refine code in an integrated playground.</li>
+    </ul>
+
+    <p>
+      These features allow organizations to create scalable and robust systems
+      tailored to their needs.
+    </p>
+
+    <h2>About AIDevX AI</h2>
+
+    <p>
+      AIDevX AI extends AIDevX AF’s capabilities with advanced artificial
+      intelligence tools, supporting developers, project managers, and data
+      scientists. Key features include:
+    </p>
+
+    <ul>
+      <li>Managing and tracking projects to improve workflows.</li>
+      <li>Integrating AI assistants for specific tasks.</li>
+      <li>Conducting guided, interactive problem-solving chats.</li>
+      <li>Using prompt templates to streamline task execution.</li>
+      <li>Uploading and editing documents or images efficiently.</li>
+    </ul>
+
+    <p>
+      AIDevX AI combines innovation with usability, enhancing productivity
+      across diverse tasks.
+    </p>
+
+    <h2>AIDevX AF</h2>
+
+    <h3>1. Managing Roles</h3>
+
+    <p><em>1.1. Creating a New Role</em></p>
+
+    <ul>
+      <li>
+        Log in to the AIDevX platform using admin credentials.
+        <ul>
+          <li>Confirm you have permissions to manage roles.</li>
+          <li>
+            For login issues, use the recovery feature or contact support.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img4.jpg" alt="AIDevX AF Login" />
+    <center>
+      <p><strong>Figure 1: Login Page</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Navigate to Manage User &gt; Role List.
+        <ul>
+          <li>
+            View all roles, including their names, descriptions, and statuses.
+          </li>
+          <li>Use the search function for quick navigation.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img6.jpg" alt="AIDevX AF Role List" />
+    <center>
+      <p><strong>Figure 2: Navigate to Role List</strong></p>
+    </center>
+
+    <ul>
+      <li>Click Add Role to open the role creation form.</li>
+    </ul>
+
+    <img src="image\img11.jpg" alt="Add Role Form" />
+    <center>
+      <p><strong>Figure 3: Add Role Form</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Fill in the form fields:
+        <ul>
+          <li>Name: Provide a unique role name.</li>
+          <li>
+            Description: Describe the role’s purpose and responsibilities.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img13.jpg" alt="Add Role Form" />
+    <center>
+      <p><strong>Figure 4: Add Role Form</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Assign users to the role:
+        <ul>
+          <li>
+            Select users from the list or click Add User to create new accounts.
+          </li>
+          <li>Use the All-Users option to assign the role universally.</li>
+        </ul>
+      </li>
+      <li>
+        Set the status:
+        <ul>
+          <li>Active: Enable the role immediately.</li>
+          <li>Inactive: Keep the role disabled until further action.</li>
+        </ul>
+      </li>
+      <li>
+        Click Save to complete the process.
+        <ul>
+          <li>A confirmation message will appear.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>2. Managing Users</h3>
+
+    <p><em>2.1. Adding a New User</em></p>
+
+    <ul>
+      <li>Log in to the AIDevX platform as an administrator.</li>
+      <li>
+        Go to Manage User &gt; User List.
+        <ul>
+          <li>View all registered users, their roles, and statuses.</li>
+          <li>Use search or filter tools for efficient navigation.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img19.jpg" alt="AIDevX AF User List" />
+    <center>
+      <p><strong>Figure 5: User List Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>Click Add User to open the user creation form.</li>
+    </ul>
+
+    <img src="image\img23.jpg" alt="Add User Form" />
+    <center>
+      <p><strong>Figure 6: Add User Form</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Complete the form:
+        <ul>
+          <li>Name: Enter a unique username.</li>
+          <li>Full Name: Provide the user’s full legal name.</li>
+          <li>Email: Input a valid email address.</li>
+          <li>Phone: Add the contact number.</li>
+          <li>Roles: Assign roles from the available list or add new roles.</li>
+          <li>
+            Status: Choose Active or Inactive to control account accessibility.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Click Save to create the account.
+        <ul>
+          <li>A confirmation message will confirm the action.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>3. Managing Menus</h3>
+
+    <p><em>3.1. Adding a New Menu</em></p>
+
+    <ul>
+      <li>Log in to the AIDevX platform.</li>
+    </ul>
+
+    <ul>
+      <li>
+        Navigate to Menu Editor.
+        <ul>
+          <li>Use the All Menu tab to view existing menus.</li>
+          <li>Search for specific menus easily.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img25.jpg" alt="AIDevX AF Menu Editor" />
+    <center>
+      <p><strong>Figure 7: All Menu Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>Click Add Menu.</li>
+    </ul>
+
+    <img src="image\img29.jpg" alt="Manage Side Menu" />
+    <center>
+      <p><strong>Figure 8: Manage Side Menu Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Fill in the form:
+        <ul>
+          <li>Title: Specify the menu title.</li>
+          <li>Path: Define the URL path (e.g., /path).</li>
+          <li>Parent Menu: Choose a parent menu if applicable.</li>
+          <li>Visibility: Control user access with this toggle.</li>
+        </ul>
+      </li>
+      <li>
+        Click Save to finalize.
+        <ul>
+          <li>The menu will appear in the All Menu list.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p><em>3.2. Managing Side Menus</em></p>
+
+    <ul>
+      <li>Go to Manage Side Menu.</li>
+    </ul>
+
+    <img src="image\img31.jpg" alt="Manage Side Menu" />
+    <center>
+      <p><strong>Figure 8: Manage Side Menu Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Drag items from All Menu to the Side Menu list.
+        <ul>
+          <li>Group menus logically by adding headers.</li>
+        </ul>
+      </li>
+      <li>Click Save to apply changes.</li>
+    </ul>
+
+    <h3>4. Designing User Interfaces (UI)</h3>
+
+    <p><em>4.1. Creating and Editing UI Designs</em></p>
+
+    <ul>
+      <li>
+        Go to Content &gt; Editor.
+        <ul>
+          <li>Access pages created through the Menu Editor.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img35.jpg" alt="Navigate Content Editor" />
+    <center>
+      <p><strong>Figure 9: Navigate Content Editor</strong></p>
+    </center>
+
+    <ul>
+      <li>Select a page and click the Code Editor icon.</li>
+    </ul>
+
+    <img src="image\img37.jpg" alt="Code Editor" />
+    <center>
+      <p><strong>Figure 10: Content Editor Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Use the AIDevX UI Code Documentation for guidance on UI components.
+      </li>
+      <li>
+        Click Save to store updates.
+        <ul>
+          <li>Pages can be accessed via the side menu or URL.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img39.jpg" alt="Code Editor" />
+    <center>
+      <p><strong>Figure 11: Code Editor</strong></p>
+    </center>
+
+    <h3>5. Creating and Managing APIs</h3>
+
+    <p><em>5.1. Adding a New API</em></p>
+
+    <ul>
+      <li>Go to API Editor &gt; Editor.</li>
+    </ul>
+
+    <img src="image\img43.jpg" alt="Navigate API Editor" />
+    <center>
+      <p><strong>Figure 12: Navigate API Editor</strong></p>
+    </center>
+
+    <ul>
+      <li>Review existing APIs displayed as cards.</li>
+    </ul>
+
+    <img src="image\img45.jpg" alt="Add API" />
+    <center>
+      <p><strong>Figure 13: API Editor Overview</strong></p>
+    </center>
+
+    <ul>
+      <li>
+        Click Add API and fill in the required details.
+        <ul>
+          <li>Enter the API path and save.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img49.jpg" alt="Add API" />
+    <p><strong>Figure 14: Add API</strong></p>
+
+    <ul>
+      <li>Link APIs to UI components using the Content Editor.</li>
+    </ul>
+
+    <ul>
+      <li>Edit or delete APIs as needed.</li>
+    </ul>
+
+    <img src="image\img51.jpg" alt="Edit or Delete API" />
+    <p><strong>Figure 15: Edit or Delete API</strong></p>
+
+    <h3>6. Managing ORM Editor</h3>
+
+    <ul>
+      <li>Go to ORM Editor.</li>
+    </ul>
+
+    <img src="image\img53.jpg" alt="Navigate ORM Editor" />
+    <center><p><strong>Figure 16: Navigate ORM Editor</strong></p></body></center>
+
+    <ul>
+      <li>
+        Click Add Schema to create a new schema.
+        <ul>
+          <li>Define table names, fields, and data types.</li>
+          <li>Establish table relationships.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img58.jpg" alt="Add Schema" />
+    <center><p><strong>Figure 17: ORM Editor Overview</strong></p></center>
+
+    <ul>
+      <li>Save the schema to make it available.</li>
+    </ul>
+
+    <img src="image\img60.jpg" alt="Save Schema" />
+    <center><p><strong>Figure 18: Add Table Form</strong></p>
+    </center>
+    <h3>7. Using the Code Playground</h3>
+
+    <ul>
+      <li>Go to Code Playground.</li>
+    </ul>
+
+    <img src="image\img62.jpg" alt="Navigate Code Playground" />
+    <center><p><strong>Figure 19: Navigate Code Playground</strong></p></center>
+
+    <ul>
+      <li>Write and test code in the editor.</li>
+    </ul>
+
+    <img src="image\img66.jpg" alt="Code Playground Overview" />
+    <center><p><strong>Figure 20: Code Playground Overview</strong></p></center>
+
+    <h2>AIDevX AI</h2>
+
+    <h3>1. Managing Projects</h3>
+
+    <p><em>1.1. Creating a New Project</em></p>
+
+    <img src="image\img70.jpg" alt="Add New Project" />
+    <center><p><strong>Figure 21: Add New Project</strong></p></center>
+
+    <ul>
+      <li>
+        Click Add Project and fill in the details:
+        <ul>
+          <li>Name: Title of the project.</li>
+          <li>Description: Brief project purpose.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img72.jpg" alt="Add Project Form" />
+    <center><p><strong>Figure 22: Add Project Form</strong></p></center>
+
+    <ul>
+      <li>Save to complete.</li>
+    </ul>
+
+    <p><em>1.2. Selecting and Editing a Project</em></p>
+
+    <ul>
+      <li>Use the sidebar dropdown to select a project.</li>
+    </ul>
+
+    <img src="image\img76.jpg" alt="Select Project" />
+    <center><p><strong>Figure 23: Select Project</strong></p></center>
+
+    <h3>2. Using Assistants</h3>
+
+    <p><em>2.1. Choosing an Assistant</em></p>
+
+    <ul>
+      <li>Go to Assistant Tab.</li>
+      <li>Select a suitable assistant from the list to start using.</li>
+    </ul>
+
+    <img src="image\img77.jpg" alt="Navigate Chat Selection" />
+    <center><p><strong>Figure 24: Navigate to Assistant</strong></p></center>
+
+    <p><em>2.2. Guided Chat</em></p>
+
+    <ul>
+      <li>Start an existing chat by selecting it from the list.</li>
+    </ul>
+
+    <img src="image\img79.jpg" alt="Guided Chat Selection" />
+    <center><p><strong>Figure 25: Navigate to Guided Chat</strong></p></center>
+
+    <p><strong>Image 39: Guided Chat Selection</strong></p>
+
+    <ul>
+      <li>
+        Create a new guided chat via Settings &gt; Add Guided Chat.
+        <ul>
+          <li>Enter a name and description.</li>
+          <li>Configure the model with specific instructions.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img86.jpg" alt="Guided Chat Settings" />
+    <center><p><strong>Figure 26: Guided Chat Settings</strong></p></center>
+
+    <ul>
+      <li><p>Click Add Guided Chat Form</p></li>
+    </ul>    
+
+    <img src="image\img88.jpg" alt="Add Guided Chat Form" />
+    <center><p><strong>Figure 27: Add Guided Chat</strong></p></center>
+
+    <ul>
+      <li>Fill in the required details and click submit.</li>
+    </ul>
+
+    <img src="image\img89.jpg" alt="Add Guided Chat Form" />
+    <center><p><strong>Figure 28: Add Guided Chat Form</strong></p></center>
+
+    
+
+    <ul>
+      <li>
+        Edit or create a new Document Template via Settings &gt; Settings.
+        <ul>
+          <li>Enter a name and description.</li>
+          <li>Configure the model with specific instructions.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img94.jpg" alt="Document Template" />
+    <center><p><strong>Figure 29: Document Template</strong></p></center>
+
+    <h3>3. Tools Tab</h3>
+
+    <p><em>3.1. Creating and Using Prompt Templates</em></p>
+
+    <ul>
+      <li>
+        Go to Tools Tab &gt; Saved Prompts.
+        <ul>
+          <li>Click Add Prompt.</li>
+          <li>Fill in title, content, and optional tags.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <img src="image\img95.jpg" alt="Add Prompt" />
+    <center><strong><p>Figure 30: Tools Tab</p></strong></center>
+
+    <img src="image\img97.jpg" alt="Add Prompt" />
+    <center><p><strong>Figure 31: Add Prompt</strong></p></center>
+
+    <ul>
+      <li>Use a prompt by selecting it in a chat session.</li>
+    </ul>
+
+    <h3>4. Chat Tab</h3>
+
+    <p><em>4.1. Uploading Document / Image</em></p>
+
+    <ul>
+      <li>Locate the upload option in the chat interface.</li>
+      <li>Select a file to upload.</li>
+      <li>Confirm the upload.</li>
+    </ul>
+
+    <img src="image\img102.jpg" alt="Upload Document" />
+
+    <p><em>4.2. Using Saved Prompt</em></p>
+
+    <ul>
+      <li>Open the prompt menu.</li>
+      <li>Select a saved prompt.</li>
+      <li>The prompt will be attached in the chat.</li>
+    </ul>
+
+    <img src="image\img102.jpg" alt="Saved Prompt" />
+
+    <p><em>4.3. Copy Reply</em></p>
+
+    <ul>
+      <li>After receiving a reply, click the Copy button.</li>
+      <li>Paste it wherever needed.</li>
+    </ul>
+
+    <img src="image\img109.jpg" alt="Copy Reply" />
+
+    <p><em>4.4. Send to Editor</em></p>
+
+    <ul>
+      <li>Use the Send to Editor button to transfer a response.</li>
+      <li>Edit and format in the editor as needed.</li>
+    </ul>
+
+    <img src="image\img109.jpg" alt="Send to Editor" />
+
+    <p><em>4.5. Regenerate Reply</em></p>
+
+    <ul>
+      <li>Click the Regenerate button for a new response.</li>
+      <li>Review the updated reply.</li>
+    </ul>
+
+    <img src="image\img109.jpg" alt="Regenerate Reply" />
+  </body>
+</html>
